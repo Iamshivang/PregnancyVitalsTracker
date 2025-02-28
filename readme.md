@@ -16,7 +16,6 @@ TrackerAssignment is a health-tracking Android application that reminds users to
 
 ### **Languages & Frameworks**
 - **Kotlin** – Primary language for Android development.
-- **Android Jetpack** – Core architecture components.
 
 ### **Libraries & Tools**
 - **WorkManager** – Handles periodic reminders in the background.
@@ -43,13 +42,17 @@ cd TrackerAssignment
 - Connect an **Android device or emulator**.
 - Click **Run ▶️** in Android Studio.
 
+## 📥 Download APK
+[![Download APK](https://img.shields.io/badge/Download-APK-green)](https://github.com/Iamshivang/PregnancyVitalsTracker/releases/tag/v1.0.0-beta)
+
 ## 🛠 Future Enhancements
 - **User Authentication** – Secure login and signup.
 - **Cloud Sync** – Backup vitals data to Firebase.
 - **Graphs & Insights** – Visual representation of user health trends.
 
 ## 📜 License
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License**. [View License](https://github.com/Iamshivang/PregnancyVitalsTracker/blob/main/LICENSE)
 
 ---
 💡 Feel free to contribute and enhance TrackerAssignment! 🚀
+
