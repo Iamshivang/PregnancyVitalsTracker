@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="25dp"
+    android:padding="8dp"
+    android:background="@drawable/dialog_bg_box"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Vital"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/textColor"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_sys_bp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_box"
+                android:inputType="number"
+                android:maxLength="3"
+                android:hint="Sys BP"
+                android:textColor="@color/black"
+                android:paddingStart="16.98dp"
+                android:paddingEnd="16.98dp"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:id="@+id/et_dia_bp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_box"
+                android:inputType="number"
+                android:maxLength="3"
+                android:hint="Dia BP"
+                android:textColor="@color/black"
+                android:paddingStart="16.98dp"
+                android:paddingEnd="16.98dp"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_weight"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_box"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="Weight"
+            android:textColor="@color/black"
+            android:paddingStart="16.98dp"
+            android:paddingEnd="16.98dp"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/et_baby_kicks"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_box"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="Baby Kicks"
+            android:textColor="@color/black"
+            android:paddingStart="16.98dp"
+            android:paddingEnd="16.98dp"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/et_heart_rate"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_box"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="Heart Rate"
+            android:textColor="@color/black"
+            android:paddingStart="16.98dp"
+            android:paddingEnd="16.98dp"
+            android:textSize="16sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_submit"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/btn_bg"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

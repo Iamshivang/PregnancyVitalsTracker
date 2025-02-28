@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<!--    <style name="Base.Theme.TrackerAssignment" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+<!--        &lt;!&ndash; Set the status bar color &ndash;&gt;-->
+<!--        <item name="android:statusBarColor">@color/secondary</item>-->
+<!--    </style>-->
+
+    <style name="Base.Theme.TrackerAssignment" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/primaryColor</item>
+    </style>
+
+    <style name="Theme.TrackerAssignment" parent="Base.Theme.TrackerAssignment" />
+</resources>
